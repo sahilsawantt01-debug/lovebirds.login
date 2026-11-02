@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #33382e;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.login-box {
+  width: 900px;
+  min-height: 550px;
+  background: #fff8ed;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Left panel */
+
+.left-panel {
+  background: #a8cfa9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+.bird {
+  font-size: 130px;
+  margin-bottom: 25px;
+}
+
+.left-panel h2 {
+  font-family: Georgia, serif;
+  margin-bottom: 15px;
+}
+
+.left-panel p {
+  max-width: 300px;
+  line-height: 1.7;
+}
+
+/* Right panel */
+
+.right-panel {
+  padding: 60px 55px;
+  text-align: center;
+  background: #fff8ed;
+}
+
+.logo {
+  font-family: cursive;
+  margin-bottom: 40px;
+  color: #665342;
+}
+
+.right-panel h4 {
+  margin-bottom: 35px;
+  color: #756b5e;
+}
+
+.right-panel form {
+  text-align: left;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #c9c0b3;
+  border-radius: 0;
+  background: transparent;
+  padding: 12px 5px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #779c78;
+  background: transparent;
+}
+
+.right-panel a {
+  color: #81715f;
+  font-size: 13px;
+}
+
+.login-btn {
+  width: 100%;
+  background: #71665b;
+  color: white;
+  border-radius: 30px;
+  padding: 12px;
+}
+
+.login-btn:hover {
+  background: #51483e;
+  color: white;
+}
+
+.or {
+  margin: 25px 0;
+  color: #8d8175;
+}
+
+.google-btn {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd2c4;
+  border-radius: 25px;
+  background: transparent;
+}
+
+.register {
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+/* Mobile responsive */
+
+@media (max-width: 767px) {
+  .main-container {
+    padding: 15px;
+  }
+
+  .left-panel {
+    min-height: 300px;
+  }
+
+  .bird {
+    font-size: 90px;
+  }
+
+  .right-panel {
+    padding: 35px 25px;
+  }
+}
